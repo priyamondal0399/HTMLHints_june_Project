@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
+
+body{
+    font-family: 'Sen', sans-serif !important;
+    background-color: black !important;
+}
+h1{
+    font-size: 75px ;
+    line-height: 75px;
+}
+h2{
+    font-size: 55px !important;
+}
+
+.navbar{
+    padding-top: 0% !important;
+    border-top: 5px #5221e6 solid;
+}
+.nav-item:nth-child(3)
+{
+    background-color: #5221e6;
+}
+
+.empty-bg{
+    height: 100vh;
+}
+.empty-bg div:nth-child(1){
+    background-color: black;
+}
+.empty-bg div:nth-child(2){
+    background-color: rgb(24, 24, 35);
+}
+.main > div{
+    position: absolute;
+    top: 0%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.main span{
+    color: rgba(255, 255, 255, 0.5);
+}
+.shift-left{
+    margin-left: -62px;
+}
+.textcolor-grey{
+    color: #8491a0;
+}
+
+.work .inner .row .textcolor-grey{
+    font-weight: 100 !important;
+    font-size: 7rem;
+    margin: 0%;
+    line-height: 7rem;
+}
+
+.work .inner .work-title{
+    font-size: 24px;
+    font-weight: 700;
+    
+}
+
+.article .text-content{
+    background-color: #fff3e4;
+}
+.article img{
+    max-width: 100%;
+    
+}
+.article p{
+    font-size: 18px;
+    color: #5b6876;
+    text-align: justify;
+    
+}
+
+
+.custom-bg-blue{
+    background-color: #181823;
+}
+
+
+.projects-desc .container p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+input , textarea{
+    background-color: #181823 !important;
+    border: unset !important;
+}
+
+.contact form .custom-btn{
+    background-color: #5221e6;
+    color: white;
+    
+
+}
+
+.modal-header , .modal-body , .modal-footer{
+    background-color: #181823;
+}
+
+.modal-footer button{
+    background-color:#5221e6 ;
+}
+
+@media (max-width: 600px){
+    h1{
+        font-size: 40px ;
+        line-height: 40px;
+    }
+    .shift-left{
+        margin-left: auto;
+    }
+    .empty-bg{
+        height: 90vh;
+    }
+    .main > div{
+        margin: 0px 30px;
+    }
+
+
+}
+
+
+footer{
+    background-color: #181823;
+}
+footer .container ul{
+    list-style-type: none;
+    color: white;
+    font-weight: 400 !important;
+}
+li:hover{
+    color: #00ffff;
+
+}
